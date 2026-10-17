@@ -32,7 +32,7 @@
     },
     {
       "name": "caveman",
-      "description": "Makes your agent answer in short, dense replies instead of walls of text: you read faster and pay for fewer tokens, with no measurable quality loss in JetBrains' 86-task A/B test.",
+      "description": "Makes your agent answer in short, dense replies instead of walls of text: you read faster and pay for fewer tokens, with no measurable quality loss in an 86-task A/B test.",
       "category": "Productivity",
       "source": {
         "source": "github",
