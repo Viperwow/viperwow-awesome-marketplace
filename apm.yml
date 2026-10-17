@@ -27,8 +27,9 @@ marketplace:
   packages:
   - category: Productivity
     name: ponytail
-    description: Half the code, same result. Your agent ships the smallest change
-      that works, so you review less and pay for fewer tokens.
+    description: 'Ponytail 5 makes AI coding agents write the least code that works.
+      Rebuilt from the ground up: 53% less code, 41% faster, 26% cheaper, 45% fewer
+      tokens, and 98% of risky logic ships with a test.'
     source: DietrichGebert/ponytail
     ref: 16352ac229eb08a9598dcae48fe9f2b342567d86
   - category: Productivity
