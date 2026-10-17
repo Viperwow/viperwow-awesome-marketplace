@@ -20,7 +20,7 @@
     },
     {
       "name": "context-mode",
-      "description": "98% less context: 315 KB of raw tool output becomes 5.4 KB. Session memory survives compaction, so the agent still knows its files, tasks and your last ask. Works in 17 clients.",
+      "description": "Keeps long sessions sharp: raw tool output stays out of the context window (98% smaller), and session memory survives compaction, so your agent never loses track of files, tasks or your last ask.",
       "category": "Productivity",
       "source": {
         "source": "github",
@@ -32,7 +32,7 @@
     },
     {
       "name": "caveman",
-      "description": "33.2% fewer input tokens per session, 63.6% fewer response tokens in Elastic's tests, and no measurable quality loss in JetBrains' 86-task A/B. Works with 30+ agents.",
+      "description": "Makes your agent answer in short, dense replies instead of walls of text: you read faster and pay for fewer tokens, with no measurable quality loss in JetBrains' 86-task A/B test.",
       "category": "Productivity",
       "source": {
         "source": "github",
@@ -56,7 +56,7 @@
     },
     {
       "name": "hookify",
-      "description": "Stop a bad agent habit in one command: /hookify Warn me when I use rm -rf. No code and no hooks.json, only a markdown rule that you can toggle without a restart.",
+      "description": "Turns your agent's bad habits into guardrails: describe the behavior in plain words, and a hook warns about it or blocks it from then on. No code, no hooks.json.",
       "category": "Productivity",
       "source": {
         "source": "git-subdir",
