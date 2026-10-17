@@ -34,9 +34,9 @@ marketplace:
     ref: 16352ac229eb08a9598dcae48fe9f2b342567d86
   - category: Productivity
     name: context-mode
-    description: 'Keeps long sessions sharp: raw tool output stays out of the context
-      window (98% smaller), and session memory survives compaction, so your agent
-      never loses track of files, tasks or your last ask.'
+    description: 'Keeps long sessions sharp: raw tool output shrinks by 98% before
+      it reaches the context window, and session memory survives compaction, so your
+      agent never loses track of files, tasks or your last ask.'
     source: mksglu/context-mode
     ref: 5f6298a9bdc480ebc7c88a29c9fbdf38ae2f8cb6
   - category: Productivity

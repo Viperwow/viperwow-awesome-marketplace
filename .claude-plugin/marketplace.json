@@ -20,7 +20,7 @@
     },
     {
       "name": "context-mode",
-      "description": "Keeps long sessions sharp: raw tool output stays out of the context window (98% smaller), and session memory survives compaction, so your agent never loses track of files, tasks or your last ask.",
+      "description": "Keeps long sessions sharp: raw tool output shrinks by 98% before it reaches the context window, and session memory survives compaction, so your agent never loses track of files, tasks or your last ask.",
       "category": "Productivity",
       "source": {
         "source": "github",
