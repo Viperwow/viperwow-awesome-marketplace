@@ -8,7 +8,12 @@ targets:
 - codex
 - cursor
 dependencies:
-  apm: []
+  apm:
+  - DietrichGebert/ponytail
+  - mksglu/context-mode
+  - JuliusBrussee/caveman
+  - git: https://github.com/obra/superpowers
+  - anthropics/claude-plugins-official/plugins/hookify
   mcp: []
 marketplace:
   description: Curated third-party skills, plugins, hooks and MCP servers for Claude
@@ -19,4 +24,32 @@ marketplace:
   outputs:
     claude: {}
     codex: {}
-  packages: []
+  packages:
+  - category: Productivity
+    name: ponytail
+    description: Makes the agent pick the simplest working solution and write less
+      code.
+    source: DietrichGebert/ponytail
+    ref: 16352ac229eb08a9598dcae48fe9f2b342567d86
+  - category: Productivity
+    name: context-mode
+    description: Keeps context in a local database across compaction, so long sessions
+      stay accurate.
+    source: mksglu/context-mode
+    ref: 5f6298a9bdc480ebc7c88a29c9fbdf38ae2f8cb6
+  - category: Productivity
+    name: caveman
+    description: Makes the agent answer tersely; saves up to 90% of output tokens.
+    source: JuliusBrussee/caveman
+    ref: 81958ad82f2e2da4417778f81f8a3c838d81b798
+  - category: Productivity
+    name: superpowers
+    description: Disciplined engineering workflows and spec-driven development.
+    source: obra/superpowers
+    ref: bb92a77741419a4ab5f06e711a283343f1ada0c3
+  - category: Productivity
+    name: hookify
+    description: Turns unwanted agent behaviors into hooks that prevent them.
+    source: https://github.com/anthropics/claude-plugins-official
+    subdir: plugins/hookify
+    ref: ea10b213686c90bb1984b2016937310e05336cf3

@@ -3,5 +3,82 @@
   "interface": {
     "displayName": "viperwow-awesome-marketplace"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "ponytail",
+      "source": {
+        "source": "url",
+        "url": "DietrichGebert/ponytail",
+        "ref": "16352ac229eb08a9598dcae48fe9f2b342567d86",
+        "sha": "16352ac229eb08a9598dcae48fe9f2b342567d86",
+        "tag_pattern": "v{version}"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "context-mode",
+      "source": {
+        "source": "url",
+        "url": "mksglu/context-mode",
+        "ref": "5f6298a9bdc480ebc7c88a29c9fbdf38ae2f8cb6",
+        "sha": "5f6298a9bdc480ebc7c88a29c9fbdf38ae2f8cb6",
+        "tag_pattern": "v{version}"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "caveman",
+      "source": {
+        "source": "url",
+        "url": "JuliusBrussee/caveman",
+        "ref": "81958ad82f2e2da4417778f81f8a3c838d81b798",
+        "sha": "81958ad82f2e2da4417778f81f8a3c838d81b798",
+        "tag_pattern": "v{version}"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "superpowers",
+      "source": {
+        "source": "url",
+        "url": "obra/superpowers",
+        "ref": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+        "sha": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+        "tag_pattern": "v{version}"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "hookify",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official",
+        "path": "plugins/hookify",
+        "ref": "ea10b213686c90bb1984b2016937310e05336cf3",
+        "sha": "ea10b213686c90bb1984b2016937310e05336cf3",
+        "tag_pattern": "v{version}"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
 }

@@ -6,3 +6,4 @@ apm_modules/
 __pycache__/
 build/
 .claude-plugin/plugin.json
+.mcp.json

@@ -5,5 +5,67 @@
     "name": "Viperwow",
     "url": "https://github.com/Viperwow"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "ponytail",
+      "description": "Makes the agent pick the simplest working solution and write less code.",
+      "category": "Productivity",
+      "source": {
+        "source": "github",
+        "repo": "DietrichGebert/ponytail",
+        "ref": "16352ac229eb08a9598dcae48fe9f2b342567d86",
+        "sha": "16352ac229eb08a9598dcae48fe9f2b342567d86",
+        "tag_pattern": "v{version}"
+      }
+    },
+    {
+      "name": "context-mode",
+      "description": "Keeps context in a local database across compaction, so long sessions stay accurate.",
+      "category": "Productivity",
+      "source": {
+        "source": "github",
+        "repo": "mksglu/context-mode",
+        "ref": "5f6298a9bdc480ebc7c88a29c9fbdf38ae2f8cb6",
+        "sha": "5f6298a9bdc480ebc7c88a29c9fbdf38ae2f8cb6",
+        "tag_pattern": "v{version}"
+      }
+    },
+    {
+      "name": "caveman",
+      "description": "Makes the agent answer tersely; saves up to 90% of output tokens.",
+      "category": "Productivity",
+      "source": {
+        "source": "github",
+        "repo": "JuliusBrussee/caveman",
+        "ref": "81958ad82f2e2da4417778f81f8a3c838d81b798",
+        "sha": "81958ad82f2e2da4417778f81f8a3c838d81b798",
+        "tag_pattern": "v{version}"
+      }
+    },
+    {
+      "name": "superpowers",
+      "description": "Disciplined engineering workflows and spec-driven development.",
+      "category": "Productivity",
+      "source": {
+        "source": "github",
+        "repo": "obra/superpowers",
+        "ref": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+        "sha": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+        "tag_pattern": "v{version}"
+      }
+    },
+    {
+      "name": "hookify",
+      "description": "Turns unwanted agent behaviors into hooks that prevent them.",
+      "category": "Productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official",
+        "path": "plugins/hookify",
+        "ref": "ea10b213686c90bb1984b2016937310e05336cf3",
+        "sha": "ea10b213686c90bb1984b2016937310e05336cf3",
+        "tag_pattern": "v{version}"
+      }
+    }
+  ]
 }
