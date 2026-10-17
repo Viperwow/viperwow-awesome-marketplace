@@ -20,7 +20,7 @@
     },
     {
       "name": "context-mode",
-      "description": "Long sessions stay sharp. Raw tool output stays out of the context window, and session memory survives compaction.",
+      "description": "98% less context: 315 KB of raw tool output becomes 5.4 KB. Session memory survives compaction, so the agent still knows its files, tasks and your last ask. Works in 17 clients.",
       "category": "Productivity",
       "source": {
         "source": "github",
@@ -32,7 +32,7 @@
     },
     {
       "name": "caveman",
-      "description": "Answers, not essays. Your agent drops the filler and keeps the facts, so you read less and spend fewer tokens.",
+      "description": "33.2% fewer input tokens per session, 63.6% fewer response tokens in Elastic's tests, and no measurable quality loss in JetBrains' 86-task A/B. Works with 30+ agents.",
       "category": "Productivity",
       "source": {
         "source": "github",
@@ -44,7 +44,7 @@
     },
     {
       "name": "superpowers",
-      "description": "Your agent works like a disciplined engineer: brainstorm, spec, plan, test first, then review.",
+      "description": "15 skills that make your agent work like a disciplined engineer: brainstorm, spec, plan, test first, review. Spec-driven development out of the box.",
       "category": "Productivity",
       "source": {
         "source": "github",
@@ -56,7 +56,7 @@
     },
     {
       "name": "hookify",
-      "description": "Fix an agent habit once and for all. Describe the unwanted behavior, and a hook blocks it from then on.",
+      "description": "Stop a bad agent habit in one command: /hookify Warn me when I use rm -rf. No code and no hooks.json, only a markdown rule that you can toggle without a restart.",
       "category": "Productivity",
       "source": {
         "source": "git-subdir",
