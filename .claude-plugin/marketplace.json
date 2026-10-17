@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "ponytail",
-      "description": "Makes the agent pick the simplest working solution and write less code.",
+      "description": "Ponytail 5 makes AI coding agents write the least code that works. Rebuilt from the ground up: 53% less code, 41% faster, 26% cheaper, 45% fewer tokens, and 98% of risky logic ships with a test.",
       "category": "Productivity",
       "source": {
         "source": "github",
@@ -20,7 +20,7 @@
     },
     {
       "name": "context-mode",
-      "description": "Keeps context in a local database across compaction, so long sessions stay accurate.",
+      "description": "The control plane between your coding agents and models. Spend less on context, remember across sessions, and run only what you allow.",
       "category": "Productivity",
       "source": {
         "source": "github",
@@ -32,7 +32,7 @@
     },
     {
       "name": "caveman",
-      "description": "Makes the agent answer tersely; saves up to 90% of output tokens.",
+      "description": "Caveman makes your AI agent say less and read less. Install the skill for shorter answers, or the CLI proxy to cut input tokens by 33.2%.",
       "category": "Productivity",
       "source": {
         "source": "github",
@@ -44,7 +44,7 @@
     },
     {
       "name": "superpowers",
-      "description": "Disciplined engineering workflows and spec-driven development.",
+      "description": "An agentic skills framework & software development methodology that works.",
       "category": "Productivity",
       "source": {
         "source": "github",
@@ -56,7 +56,7 @@
     },
     {
       "name": "hookify",
-      "description": "Turns unwanted agent behaviors into hooks that prevent them.",
+      "description": "Easily create hooks to prevent unwanted behaviors by analyzing conversation patterns",
       "category": "Productivity",
       "source": {
         "source": "git-subdir",
