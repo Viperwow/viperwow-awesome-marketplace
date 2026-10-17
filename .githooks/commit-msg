@@ -1,0 +1,2 @@
+#!/bin/sh
+exec npx --yes -p @commitlint/cli@21.2.3 -p @commitlint/config-conventional@21.2.3 commitlint --edit "$1"
