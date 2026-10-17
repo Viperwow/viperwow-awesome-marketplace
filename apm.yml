@@ -1,0 +1,22 @@
+name: viperwow-awesome-marketplace
+version: 0.1.0
+description: Curated third-party skills, plugins, hooks and MCP servers for Claude
+  Code, Codex and Cursor.
+author: Viperwow
+targets:
+- claude
+- codex
+- cursor
+dependencies:
+  apm: []
+  mcp: []
+marketplace:
+  description: Curated third-party skills, plugins, hooks and MCP servers for Claude
+    Code, Codex and Cursor.
+  owner:
+    name: Viperwow
+    url: https://github.com/Viperwow
+  outputs:
+    claude: {}
+    codex: {}
+  packages: []

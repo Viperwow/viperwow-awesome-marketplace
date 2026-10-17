@@ -1,0 +1,8 @@
+apm_modules/
+.agents/skills/
+.claude/
+.codex/
+.cursor/
+__pycache__/
+build/
+.claude-plugin/plugin.json

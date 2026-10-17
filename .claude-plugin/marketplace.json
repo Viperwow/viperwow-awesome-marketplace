@@ -1,0 +1,9 @@
+{
+  "name": "viperwow-awesome-marketplace",
+  "description": "Curated third-party skills, plugins, hooks and MCP servers for Claude Code, Codex and Cursor.",
+  "owner": {
+    "name": "Viperwow",
+    "url": "https://github.com/Viperwow"
+  },
+  "plugins": []
+}
