@@ -44,3 +44,19 @@ Then install a plugin as `NAME@viperwow-awesome-marketplace`.
 ```bash
 uv run test_migrate.py
 ```
+
+## Commits and releases
+
+Commit messages follow [Conventional Commits](https://www.conventionalcommits.org). commitlint checks every pull request. Check locally too:
+
+```bash
+git config core.hooksPath .githooks
+```
+
+Every push to `main` runs semantic-release. A `fix:` commit bumps the patch version, a `feat:` commit bumps the minor version, and a `BREAKING CHANGE:` footer bumps the major version. The release sets `version` in `apm.yml`, tags `vX.Y.Z` and publishes a GitHub release.
+
+Pin a device to a release:
+
+```bash
+apm install -g Viperwow/viperwow-awesome-marketplace#v1.0.0
+```

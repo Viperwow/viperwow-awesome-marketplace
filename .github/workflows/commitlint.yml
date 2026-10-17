@@ -1,0 +1,20 @@
+name: commitlint
+
+on: pull_request
+
+permissions:
+  contents: read
+
+jobs:
+  commitlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: >
+          npx --yes -p @commitlint/cli@21.2.3 -p @commitlint/config-conventional@21.2.3
+          commitlint --from ${{ github.event.pull_request.base.sha }} --to ${{ github.event.pull_request.head.sha }}
